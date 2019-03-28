@@ -1,0 +1,107 @@
+/*TEAM2*/
+.team-div, .it-div {
+    padding: 2% 20%;
+    text-align: left;
+}
+
+.team-div {
+    background-color: #F9FFFE;
+}
+
+.team-title {
+    color: #0C4073;
+    font-size: 32px;
+}
+
+.program {
+    width: 60%;
+    margin: 2% 20%;
+}
+
+.team-div p, .it-div p {
+    color: #333333;
+    margin: 2% 0;
+}
+
+.it-div ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12%;
+}
+
+.it-div .it-li {
+    width: 33%;
+    display: inline-block;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.it-div .it-li .it-img {
+    width: 30%;
+}
+
+.landmark {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+.landmark img {
+    width: 50%;
+    border-radius: 100%;
+    margin: 0 25%;
+}
+
+.it-div .it-li div,
+.landmark div {
+    margin: 8% 0;
+}
+
+.animation-div {
+    text-align: center;
+}
+
+.animation-div img {
+    width: 10%;
+}
+
+.animation-div img:last-child {
+    display: block;
+}
+
+/*联系我们*/
+.contact-div {
+    padding: 2% 20%;
+    text-align: left;
+}
+
+.concact-list {
+    margin-bottom: 4%;
+}
+
+.concact-list h4 {
+    font-weight: bold;
+}
+
+.concact-list p {
+    line-height: 30px;
+}
+
+@media screen and (max-width: 720px) {
+    .team-div, .it-div, .contact-div {
+        padding: 2% 5%;
+    }
+
+    .it-div .it-li .it-img {
+        width: 50%;
+    }
+
+    .team-title {
+        font-size: 20px;
+    }
+
+    .landmark img {
+        width: 70%;
+        margin: 0 15%;
+    }
+}

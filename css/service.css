@@ -1,0 +1,152 @@
+/*平台服务*/
+.echr-system {
+    background-color: #F9FFFE;
+    margin-bottom: 8%;
+    padding: 4% 20%;
+    overflow: auto;
+}
+
+.introduction {
+    width: 50%;
+    float: left;
+    margin-right: 4%;
+}
+
+.echr-title {
+    color: #0C4073;
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+.echr-system p {
+    color: #333333;
+    text-align: left;
+}
+
+.btn-echr {
+    float: left;
+    background-color: #06CCB9;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.general-map {
+    width: 40%;
+
+}
+
+.module-list {
+    margin-bottom: 8%;
+    padding: 0 20%;
+}
+
+.title-color1 {
+    color: #18B4A6;
+    font-size: 32px;
+}
+
+.title-color2 {
+    color: #0C4073;
+    font-size: 32px;
+}
+
+.list-title {
+    margin-bottom: 4%;
+}
+
+.module-list ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.module-list li {
+    display: inline-block;
+    width: 22%;
+    padding: 4% 1%;
+    margin: 0 3% 4% 0;
+    box-shadow: 1px 4px 12px 1px rgba(238, 238, 238, 0.99);
+    overflow: auto;
+}
+
+.module-list li:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 4px 12px 1px rgba(223, 243, 251, 0.99);
+}
+
+.module-list li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.li-img {
+    width: 60%;
+    margin-bottom: 8%;
+}
+
+.li-div {
+    color: #999999;
+}
+
+/*线下服务*/
+.service-description {
+    padding: 2% 20%;
+}
+
+.service-description p {
+    text-align: left;
+}
+
+.program, .our-service {
+    /*width: 94.6%;*/
+    margin: 2%  0 0;
+}
+
+.program img, .our-service img{
+    width: 100%;
+    height: 100%;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 720px) {
+
+    .echr-system {
+        padding: 4% 5%;
+    }
+
+    .introduction {
+        width: 100%;
+    }
+
+    .general-map {
+        width: 70%;
+    }
+
+    .module-list ul {
+        margin-left: -12%;
+    }
+
+    .module-list li {
+        width: 32%;
+        margin: 0 2% 4% 0;
+    }
+
+    .module-list li:nth-child(4n) {
+        margin-right: 2%;
+    }
+
+    .module-list li:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .module-list,
+    .service-description {
+        padding: 2% 5%;
+    }
+
+    .echr-title,
+    .title-color1,
+    .title-color2 {
+        font-size: 20px;
+    }
+
+}
